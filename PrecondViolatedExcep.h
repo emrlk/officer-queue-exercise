@@ -1,6 +1,4 @@
-
-/** Listing 7-5.
-    @file PrecondViolatedExcep.h */
+/** @file PrecondViolatedExcep.h */
 
 #ifndef _PRECOND_VIOLATED_EXCEP
 #define _PRECOND_VIOLATED_EXCEP

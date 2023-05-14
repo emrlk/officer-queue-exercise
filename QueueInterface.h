@@ -1,7 +1,7 @@
-
-/** Listing 13-1.
- @file QueueInterface.h 
- @author Emily Louk */
+/** 
+*   @file QueueInterface.h 
+*   @author Emily Louk 
+*/
 
 #ifndef _QUEUE_INTERFACE
 #define _QUEUE_INTERFACE

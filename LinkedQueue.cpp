@@ -1,6 +1,7 @@
-
-/** @file LinkedQueue.cpp implements methods of LinkedQueue
-    @author Emily Louk */
+/** @file LinkedQueue.cpp 
+*   implementation of  LinkedQueue.h
+*    @author Emily Louk 
+*/
 
 #include "LinkedQueue.h"  
 #include <cassert>
@@ -54,6 +55,8 @@ LinkedQueue<ItemType>::LinkedQueue(const LinkedQueue& aQueue)
    }  // end if
 }  // end copy constructor
 
+
+
 template<class ItemType>
 LinkedQueue<ItemType>::~LinkedQueue()
 {
@@ -62,11 +65,15 @@ LinkedQueue<ItemType>::~LinkedQueue()
    assert ( (backPtr == nullptr) && (frontPtr == nullptr) );
 }  // end destructor
 
+
+
 template<class ItemType>
 bool LinkedQueue<ItemType>::isEmpty() const
 {
    return backPtr == nullptr;
 }  // end isEmpty
+
+
 
 template<class ItemType>
 bool LinkedQueue<ItemType>::enqueue(const ItemType& newEntry)
@@ -84,6 +91,8 @@ bool LinkedQueue<ItemType>::enqueue(const ItemType& newEntry)
   
    return true;
 }  // end enqueue
+
+
 
 template<class ItemType>
 bool LinkedQueue<ItemType>::dequeue()
@@ -110,6 +119,8 @@ bool LinkedQueue<ItemType>::dequeue()
    }//end if	   
    return result;	
 }  // end dequeue
+
+
 
 template<class ItemType>
 ItemType LinkedQueue<ItemType>::peekFront() const throw(PrecondViolatedExcep)

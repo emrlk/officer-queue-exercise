@@ -1,9 +1,7 @@
-
-
-/** ADT queue: Link-based implementation.
- Listing 14-3.
+/**
  @file LinkedQueue.h 
  @author Emily Louk */
+
 #ifndef _LINKED_QUEUE
 #define _LINKED_QUEUE
 

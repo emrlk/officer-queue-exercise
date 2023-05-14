@@ -1,8 +1,5 @@
-
-
 /** @file Node.cpp 
-    Listing 4-2 
-    @author Emily Louk */
+*   @author Emily Louk */
 #include "Node.h"
 #include <cstddef>
 
